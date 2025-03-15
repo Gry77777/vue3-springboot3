@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/xm-pro?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=true
+
+  mybatis:
+    mapper-locations: classpath:mapper/*.xml   # 用于加载映射文件的位置
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 启用 MyBatis SQL 执行日志
+      map-underscore-to-camel-case: true  # 启用下划线转驼峰命名

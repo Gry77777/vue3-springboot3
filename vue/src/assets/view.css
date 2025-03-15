@@ -1,0 +1,132 @@
+/* 设置全局字体和行高 */
+.editor-content-view {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* 标题样式 */
+.editor-content-view h1,
+.editor-content-view h2,
+.editor-content-view h3,
+.editor-content-view h4,
+.editor-content-view h5,
+.editor-content-view h6 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.editor-content-view h1 {
+    font-size: 2em;
+}
+
+.editor-content-view h2 {
+    font-size: 1.75em;
+}
+
+.editor-content-view h3 {
+    font-size: 1.5em;
+}
+
+.editor-content-view h4 {
+    font-size: 1.25em;
+}
+
+.editor-content-view h5 {
+    font-size: 1em;
+}
+
+.editor-content-view h6 {
+    font-size: 0.875em;
+}
+
+/* 段落样式 */
+.editor-content-view p {
+    margin: 0 0 1em 0;
+    text-align: justify;
+}
+
+/* 链接样式 */
+.editor-content-view a {
+    color: #409eff;
+    text-decoration: none;
+}
+
+.editor-content-view a:hover {
+    text-decoration: underline;
+}
+
+/* 图片样式 */
+.editor-content-view img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+/* 列表样式 */
+.editor-content-view ul,
+.editor-content-view ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+.editor-content-view li {
+    margin-bottom: 0.5em;
+}
+
+/* 引用样式 */
+.editor-content-view blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: 4px solid #ddd;
+    background-color: #f9f9f9;
+    color: #666;
+}
+
+/* 代码块样式 */
+.editor-content-view pre {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.editor-content-view code {
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 0.875em;
+    color: #333;
+}
+
+/* 表格样式 */
+.editor-content-view table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+.editor-content-view th,
+.editor-content-view td {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.editor-content-view th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+/* 分隔线样式 */
+.editor-content-view hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 1.5em 0;
+}

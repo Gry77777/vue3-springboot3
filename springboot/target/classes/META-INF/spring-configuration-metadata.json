@@ -1,0 +1,21 @@
+{
+  "groups": [],
+  "properties": [
+    {
+      "name": "spring.mybatis.configuration.log-impl",
+      "type": "java.lang.String",
+      "description": "Description for spring.mybatis.configuration.log-impl."
+    },
+    {
+      "name": "spring.mybatis.configuration.map-underscore-to-camel-case",
+      "type": "java.lang.String",
+      "description": "Description for spring.mybatis.configuration.map-underscore-to-camel-case."
+    },
+    {
+      "name": "spring.mybatis.mapper-locations",
+      "type": "java.lang.String",
+      "description": "Description for spring.mybatis.mapper-locations."
+    }
+  ],
+  "hints": []
+}

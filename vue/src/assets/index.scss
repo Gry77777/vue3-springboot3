@@ -1,0 +1,9 @@
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  $colors: (
+    "primary": ("base": #1256ff),
+    "success": ("base": #16ff00),
+    "warning": ("base": #ffd26c),
+    "danger": ("base": #ff1111),
+    "info": ("base": #a062d5)
+  )
+);
